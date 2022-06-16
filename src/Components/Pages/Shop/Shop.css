@@ -1,0 +1,26 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 5.8fr 2fr;
+    background-color: #EAECEE;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: auto;
+}
+.product-container{
+    text-align: center;
+    margin-right: 7px;
+    margin-top: 20px;
+}
+.cart-container{
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    height: 400px;
+    position: fixed;
+    right: 0;
+    width: 24%;
+    margin-right: 50px;
+    border-bottom: 1px solid lightgray;
+
+}

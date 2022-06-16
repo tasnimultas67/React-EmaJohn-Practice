@@ -1,0 +1,25 @@
+.site-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.navbar{
+    text-align: center;
+    background-color: black;
+    line-height: 40px;
+    padding: 15px 20px;
+
+}
+.nav-item{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s;
+}
+.nav-item:hover{
+    background-color: lightgray;
+    color: black;
+}
