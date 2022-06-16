@@ -32,5 +32,5 @@ const Shop = () => {
         </div>
     );
 };
-
+//This is comment
 export default Shop;
