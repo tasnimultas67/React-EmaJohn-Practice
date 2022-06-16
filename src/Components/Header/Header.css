@@ -23,3 +23,8 @@
     background-color: lightgray;
     color: black;
 }
+.header-main{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
