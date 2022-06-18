@@ -17,8 +17,14 @@ const Shop = () => {
             const savedCart = getStoredCart()
         const storedCart = [];
         for(let key in savedCart){
+            // console.log(key, savedCart[key])
             const addedProduct = products.find(product => product.key === key)
-            console.log(key, addedProduct);
+            // console.log(key, addedProduct);
+            if(addedProduct){
+                const quantity = savedCart[key];
+                addedProduct.quantity = quantity;
+                console.log(addedProduct);
+            }
             storedCart.push(addedProduct)
         }
         setCart(storedCart)
